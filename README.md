@@ -4,17 +4,6 @@
 
 **Oteitza Sagardotegia** edozein jariakinen Tº eta Hº naren urruneko monitorizazio eta kontrola Arduino eta Thingsboard bitartez egiteko proiekturako gida da. 
 
-
-## Elementuen lista
-|Elements| Quantity | Link | 
-|---|---|---|
-| IoMbian| 1 | |
-| Arduino UNO| 1 |[Electroson](https://www.electrosonsansebastian.com/eu/placas-de-desarrollo/1327-arduino-uno-rev3.html)|
-| DHT11| 1 ||
-| Female-Female headers| 3 ||
-
-> **Warning**: Try to buy locally ```nearest store```.
-
 ## Eskema Elektrikoa
 ![enter image description here](Irudiak/Arduino-DHT11-Eskema.png "Scheme")
 
@@ -56,6 +45,16 @@ Kontuan izan Library Manager-a erabiliaz **DHT sensor library**-a instalatu beha
 
 
 ![enter image description here](Irudiak/ArduinoLibraryDHT11.png "IDE")
+
+## Elementuen lista
+|Elements| Quantity | Link | 
+|---|---|---|
+| IoMbian| 1 | |
+| Arduino UNO| 1 |[Electroson](https://www.electrosonsansebastian.com/eu/placas-de-desarrollo/1327-arduino-uno-rev3.html)|
+| DHT11| 1 ||
+| Female-Female headers| 3 ||
+
+> **Warning**: Try to buy locally ```nearest store```.
 
 ## Soldering
 

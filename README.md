@@ -23,14 +23,40 @@
 
 Arduino IDE-a erabiliaz errepositorioan emanda dagoen **arduino-DHT11-Serial-Kodea.ino** kodea Arduino UNO-ra igo. 
 
+Some basic Git commands are:
+```
+#include <TimerOne.h>
+#include <DHT.h>
+#define DHTPIN 2
+#define DHTTYPE DHT11
+DHT dht(DHTPIN, DHTTYPE);
+int h =0;
+int t = 0;
+
+void setup() {
+  Serial.begin(1200);
+  dht.begin();
+  Timer1.initialize(1000000);      //Tenporizadorea 1sg
+  Timer1.attachInterrupt(Tenporizatzailea) ; //Interrupzioa konfiguratu
+}
+
+void loop() {
+  h = dht.readHumidity();
+  t = dht.readTemperature();
+  h=h+100;                    // Hezetasuna 100 etik gorako balioetan modulatua bidaliko da
+}
+
+void Tenporizatzailea (void)    // 1 sgko serial monitoretik Tº eta Hº balioak bidali
+{ 
+  Serial.println(h);
+  Serial.p
+```
 
 Kontuan izan Library Manager-a erabiliaz **DHT sensor library**-a instalatu beharko duzuela lehendabizi.
 
-![enter image description here](images/IOM2040%202D.png "3D enclosure")
 
-And these the measurements of the screen location, although we recommend to glue the LCD to the screen, make the Ø2 holes and release and fix it with bolts afterwards.
+![enter image description here](Irudiak/Arduino Library DHT11.png "IDE")
 
-![enter image description here](images/Pantaila%20CAD%202D.png "LCD")
 ## Soldering
 
 Prepare the elements with a female header in every pin on them. It requires a bit of soldering.

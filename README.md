@@ -59,6 +59,8 @@ Kontuan izan Library Manager-a erabiliaz **DHT sensor library**-a instalatu beha
 
 > **Warning**: Try to buy locally ```nearest store```.
 
+## Node Red eta Thingsboard
+**Node Red** eta **Thingsboard** erabili Arduino datuak irakurri eta ondoren metatu eta bistaratzeko. 
 
 ## Authors
 

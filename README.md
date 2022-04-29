@@ -14,7 +14,7 @@
 Arduino IDE-a erabiliaz errepositorioan emanda dagoen **arduino-DHT11-Serial-Kodea.ino** kodea Arduino UNO-ra igo. 
 
 Some basic Git commands are:
-```
+```c
 #include <TimerOne.h>
 #include <DHT.h>
 #define DHTPIN 2

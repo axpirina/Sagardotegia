@@ -3,6 +3,7 @@
 ## Sarrera
 
 **Oteitza Sagardotegia** edozein jariakinen Tº eta Hº naren urruneko monitorizazio eta kontrola Arduino eta Thingsboard bitartez egiteko proiekturako gida da. 
+![enter image description here](Irudiak/Sagardotegia "Scheme")
 
 ## Eskema Elektrikoa
 ![enter image description here](Irudiak/Arduino-DHT11-Eskema.png "Scheme")

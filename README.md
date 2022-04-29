@@ -42,7 +42,9 @@ void Tenporizatzailea (void)    // 1 sgko serial monitoretik Tº eta Hº balioak
   Serial.p
 ```
 
+
 Kontuan izan Library Manager-a erabiliaz **DHT sensor library**-a instalatu beharko duzuela lehendabizi.
+
 
 
 ![enter image description here](Irudiak/ArduinoLibraryDHT11.png "IDE")

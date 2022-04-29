@@ -4,14 +4,6 @@
 
 **Oteitza Sagardotegia** edozein jariakinen Tº eta Hº naren urruneko monitorizazio eta kontrola Arduino eta Thingsboard bitartez egiteko proiekturako gida da. 
 
-It has been developed mainly for teachers (educational environments), in order to facilitate the implementation of IoM (Internet of Machines) and IIoT (Industrial Internet of Things) systems in embedded devices.
-![enter image description here](images/IOM2040k.png "IOM2040")
-The initial configuration have a push button to wake or sleep down the hardware in a secure way and red LED to monitor the hardware running [iom shutdown controller](https://github.com/Tknika/iom2040-shutdown-controller).
-
- It also have a switch and a green LED for a plug an teach practicing with Node Red.  
- 
-It has been entirely build to be working as a one with [IoMBian OS ](https://github.com/Tknika/iombian) firmware.
-
 
 ## Elementuen lista
 |Elements| Quantity | Link | 
@@ -24,7 +16,7 @@ It has been entirely build to be working as a one with [IoMBian OS ](https://git
 > **Warning**: Try to buy locally ```nearest store```.
 
 ## Eskema Elektrikoa
-![enter image description here](irudiak/Arduino-DHT11-Eskema.png "Scheme")
+![enter image description here](Irudiak/Arduino-DHT11-Eskema.png "Scheme")
 
 
 ## Arduino programazioa

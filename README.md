@@ -59,19 +59,6 @@ Kontuan izan Library Manager-a erabiliaz **DHT sensor library**-a instalatu beha
 
 > **Warning**: Try to buy locally ```nearest store```.
 
-## Soldering
-
-Prepare the elements with a female header in every pin on them. It requires a bit of soldering.
-
-![enter image description here](images/Elementuak.png)
-
-## Mounting
-
- - Place all the components in their pins following the related scheme above.
- - Close the enclosure.
- - Burn the latest [IoMBian OS ](https://github.com/Tknika/iombian)  software on the SD.
- - Find the gateway using the [IoMBian discover tool](https://github.com/Tknika/iombian-discover).
- - Enjoy!
 
 ## Authors
 

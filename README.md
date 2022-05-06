@@ -2,7 +2,7 @@
 
 ## Sarrera
 
-**Oteitza Sagardotegia** edozein jariakinen Tº eta Hº naren urruneko monitorizazio eta kontrola Arduino eta Thingsboard bitartez egiteko proiekturako gida da. 
+**Oteitza Sagardotegia** edozein jariakinen Tº eta Hº -aren urruneko monitorizazio eta kontrola **Arduino eta Thingsboard** bitartez egiteko gida da. 
 ![enter image description here](Irudiak/Sagardotegia.jpg "Argazkia")
 
 ## Eskema Elektrikoa
@@ -48,6 +48,20 @@ Kontuan izan Library Manager-a erabiliaz **DHT sensor library**-a instalatu beha
 
 
 ![enter image description here](Irudiak/ArduinoLibraryDHT11.png "IDE")
+
+## Node Red
+
+Node Red-en Arduinotik datozen **SERIE** datuak irakurri, modelatu, Thingsboard **{"key":value}** formatuan jarri eta MQTT bitartez Thingsboard-en publikatu beharko ditugu.
+
+![enter image description here](Irudiak/Node Red.png "Flow-a")
+
+## Thingsboard
+
+Thingsboard-en telemetriak irakurri, Dasboard batean irudikatu eta alarmak progamatu beharko ditugu.
+
+![enter image description here](Irudiak/Dashboard.png "Dashboard-a")
+
+
 
 ## Elementuen lista
 |Elements| Quantity | Link | 

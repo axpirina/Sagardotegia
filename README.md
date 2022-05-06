@@ -53,7 +53,7 @@ Kontuan izan Library Manager-a erabiliaz **DHT sensor library**-a instalatu beha
 
 Node Red-en Arduinotik datozen **SERIE** datuak irakurri, modelatu, Thingsboard **{"key":value}** formatuan jarri eta MQTT bitartez Thingsboard-en publikatu beharko ditugu.
 
-![enter image description here](Irudiak/Node Red.png "Flow-a")
+![enter image description here](Irudiak/NodeRed.png "Flow-a")
 
 ## Thingsboard
 

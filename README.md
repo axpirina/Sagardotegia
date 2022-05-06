@@ -39,7 +39,8 @@ void loop() {
 void Tenporizatzailea (void)    // 1 sgko serial monitoretik Tº eta Hº balioak bidali
 { 
   Serial.println(h);
-  Serial.p
+  Serial.println(t);
+}
 ```
 
 

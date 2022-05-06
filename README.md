@@ -73,8 +73,6 @@ Thingsboard-en telemetriak irakurri, Dasboard batean irudikatu eta alarmak proga
 
 > **Warning**: Try to buy locally ```nearest store```.
 
-## Node Red eta Thingsboard
-**Node Red** eta **Thingsboard** erabili Arduino datuak irakurri eta ondoren metatu eta bistaratzeko. 
 
 ## Authors
 
